@@ -1,0 +1,3 @@
+a={"st1":"rohan","st2":"ram"}
+b=dict(map(lambda x:(x[0],x[1].upper()),a.items()))
+print(b)
