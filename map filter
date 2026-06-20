@@ -1,0 +1,3 @@
+a=[23,78,90,35,40,49,53]
+b=filter(lambda x:x>50,list(map(lambda x:x+5,a)))
+print(list(b))
