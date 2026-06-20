@@ -1,0 +1,3 @@
+a={'st1':90,'st2':45,'st3':70}
+b=filter(lambda x:(x[1]>45),a.items())
+print(dict(b))
