@@ -1,0 +1,5 @@
+import random
+x=[2,4,3,5,90,55]
+f=random.choice(x)
+e=random.sample(x,3)
+print(e)
